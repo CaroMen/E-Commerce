@@ -1,14 +1,18 @@
 export const homeHeader = {
-    headline1: 'Potted Plants Shed',
-    subtitleHeader: 'We have a wide variety of plants available. Check out the many options!',
+    headline1: 'Plants',
+    subtitleHeader: 'There are many variations.',
     plant1: 'Paradise Palm',
     plantSubtitle: 'Give your home a calming, soothing presence with the Paradise Palm. Her leaves, beautiful color, and elegance will quickly earn your heart',
-    img: require('../../images/prop2.png'),
+    img: require('../../images/header.png'),
     alt: 'Image',
     start: '',
 }
 
 export const storeInfo = {
-    intro: 'Hi',
-    cat1: 'hello',
+    intro: 'These Are Our Plants',
+    cat1: 'VINCENT',
+    intro2: 'LUXURY',
+    cat2: 'Inspired by contemporary architecture, our furniture is a modern take on interior design. Our designs are a blend of comfortable, liveable elements that give your home a sophisticated look to any room.',
+    cat3: 'Our job is to help you make your vision become a reality. Give your home a sleek and fresh look with our furniture. With a comfortable yet bold and simple take on life, find the joy that is found in a beautifully decorated, contemporary and modern home.',
+    img2: require('../../images/vincent.png')
 }

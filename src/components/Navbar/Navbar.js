@@ -13,7 +13,7 @@ const Navbar = () => {
                 <Nav>
                     <NavbarContainer>
                         <NavLogo to="/">
-                            PLANT
+                            LUXURY
                         </NavLogo>
                         <MobileIcon onClick={handleClick}>
                             {click ? <FaTimes /> : <FaBars />}

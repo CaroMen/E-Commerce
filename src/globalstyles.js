@@ -1,11 +1,21 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import Playfair from './fonts/PlayfairDisplay-Medium.ttf'
+
 
 const GlobalStyle = createGlobalStyle`
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Courier New", Courier, monospace;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair', serif;
+    src: url(${Playfair});
+    // overflow-x: hidden;
+}
+
+html, body {
+    overflow-x: hidden;
 }
 `;
 

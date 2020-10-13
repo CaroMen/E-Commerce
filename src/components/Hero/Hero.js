@@ -11,27 +11,18 @@ const Hero = ({ darkText, headline1, headline2, subtitleHeader, img, alt, start,
             <Header>
                 <Container>
                     <FirstRow>
-                        <HeaderColumnIntro>
-                            <TextWrapper>
-                                <Heading darkText={darkText}>{headline1}</Heading>
-                                <Subtitle darkText={darkText}>{subtitleHeader}</Subtitle>
-                            </TextWrapper>
-                        </HeaderColumnIntro>
                         <HeaderColumn>
                             <ImgWrapper start={start}>
                                 <Img src={img} alt={alt} />
                             </ImgWrapper>
                         </HeaderColumn>
                         <HeaderColumnType>
-                            <TextWrapper>
-                                <Heading darkText={darkText}>{plant1}</Heading>
-                                <Subtitle darkText={darkText}>{plantSubtitle}</Subtitle>
-                                <Subtitle darkText={darkText} onClick={handleClick} click={click}>
-                                    <StoreLink>
-                                        Start Your Own Garden<GoIcon />
-                                    </StoreLink>
-                                </Subtitle>
-                            </TextWrapper>
+                            <HeaderColumnIntro>
+                                <TextWrapper>
+                                    <Heading darkText={darkText}>{headline1}</Heading>
+                                    <Subtitle darkText={darkText}>{subtitleHeader}</Subtitle>
+                                </TextWrapper>
+                            </HeaderColumnIntro>
                         </HeaderColumnType>
                     </FirstRow>
                 </Container>
