@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+import { ImPriceTags } from "react-icons/im";
+import { BiBed } from "react-icons/bi";
+import { BsFillChatFill } from "react-icons/bs";
 
 export const StoreSec = styled.div`
 color: black;
@@ -63,8 +66,80 @@ padding-right: 15px;
 padding-left: 15px;
 margin-top: -450px;
 max-width: 33%;
-flex-basis: 33%;
+display: flex;
+/* justify-content: space-between */
 `;
+
+export const ColumnDesc = styled.div`
+margin-top: 100px;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+/* text-align: center; */
+
+`
+
+export const DescCol = styled.div`
+width: 100%;
+/* margin-right: 30px; */
+/* justify-content: center; */
+`;
+
+
+export const FirstCol = styled.p`
+display: grid;
+margin-top: 100px;
+max-width: 80%;
+grid-template-rows: 1fr 1fr;
+margin-left: auto;
+margin-right: auto;
+`
+
+export const DescTitle = styled.h4`
+margin-top: -35px;
+font-size: 30px;
+line-height: 1.2;
+`
+
+export const Desc = styled.p`
+font-size: 20px;
+line-height: 1.1;
+`
+
+export const PriceIcon = styled(ImPriceTags)`
+margin-right: 0.5rem;
+width: 40px;
+height: 40px;
+`
+
+export const ModernIcon = styled(BiBed)`
+margin-right: 0.5rem;
+width: 40px;
+height: 40px;
+`
+
+export const ServiceIcon = styled(BsFillChatFill)`
+margin-right: 0.5rem;
+width: 40px;
+height: 40px;
+`
+
+export const SecCol = styled.p`
+display: grid;
+margin-top: 100px;
+max-width: 80%;
+grid-template-rows: 1fr 1fr;
+margin-left: auto;
+margin-right: auto;
+`
+
+export const ThirdCol = styled.p`
+display: grid;
+margin-top: 100px;
+max-width: 80%;
+grid-template-rows: 1fr 1fr;
+margin-left: auto;
+margin-right: auto;
+`
 
 export const SubtitleCat = styled.p`
 margin-top: 10px;
