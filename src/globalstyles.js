@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Playfair', serif;
     src: url(${Playfair});
     // overflow-x: hidden;
+    // background-color: #D0CCD0;
 }
 
 html, body {

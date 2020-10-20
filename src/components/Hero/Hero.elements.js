@@ -75,17 +75,11 @@ z-index: -1;
 `;
 
 export const Img = styled.img`
-/* border: 0;
-max-width: 100%;
-vertical-align: middle;
-display: inline-block; */
 padding: 0;
 display: block;
 margin: 0;
 right: 0;
 left: 0;
-/* max-height: 100%; */
-/* max-width: 100%; */
 width: 100%;
 height: 100%;
 

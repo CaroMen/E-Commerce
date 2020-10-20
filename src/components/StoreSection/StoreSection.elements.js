@@ -6,6 +6,7 @@ import { BsFillChatFill } from "react-icons/bs";
 export const StoreSec = styled.div`
 color: black;
 padding: 160px 0;
+background-color: #DFD5CE;
 `;
 
 export const FirstRowStore = styled.div`
@@ -14,6 +15,8 @@ margin: 0 -15px -15px -15px;
 flex-wrap: wrap;
 align-items: center;
 flex-direction: row;
+width: 100%;
+height: 100%;
 `;
 
 export const StoreTextWrapper = styled.div`
@@ -35,15 +38,15 @@ margin-bottom: 20px;
 `
 
 export const StoreNewSec = styled.div`
-padding-right: 15px;
-margin-top: 0px;
+/* padding-right: 15px; */
+/* margin-top: 0px; */
 max-width: 40%;
 position: relative;
 text-align: right;
 display: grid;
 grid-template-columns: 100% 100%;
-width: 50%;
-margin-right: 30px;
+width: 100%;
+/* margin-right: 30px; */
 flex: 1;
 `
 
@@ -75,15 +78,18 @@ margin-top: 100px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 /* text-align: center; */
-
+height: 100%;
+width: 100%;
+margin-left: 0;
+margin-right: 0;
 `
 
 export const DescCol = styled.div`
 width: 100%;
+height: 100%;
 /* margin-right: 30px; */
 /* justify-content: center; */
 `;
-
 
 export const FirstCol = styled.p`
 display: grid;
@@ -92,6 +98,10 @@ max-width: 80%;
 grid-template-rows: 1fr 1fr;
 margin-left: auto;
 margin-right: auto;
+padding: 50px 50px 50px 50px;
+border-radius: 15px;
+box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
+            5px 4px 3px 0px rgba(88, 88, 88, 0.15);
 `
 
 export const DescTitle = styled.h4`
@@ -130,6 +140,10 @@ max-width: 80%;
 grid-template-rows: 1fr 1fr;
 margin-left: auto;
 margin-right: auto;
+padding: 50px 50px 50px 50px;
+border-radius: 15px;
+box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
+            5px 4px 3px 0px rgba(88, 88, 88, 0.15);
 `
 
 export const ThirdCol = styled.p`
@@ -139,6 +153,10 @@ max-width: 80%;
 grid-template-rows: 1fr 1fr;
 margin-left: auto;
 margin-right: auto;
+padding: 50px 50px 50px 50px;
+border-radius: 15px;
+box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
+            5px 4px 3px 0px rgba(88, 88, 88, 0.15);
 `
 
 export const SubtitleCat = styled.p`

@@ -3,7 +3,7 @@ import { Container } from '../../globalstyles';
 import { Link } from 'react-router-dom';
 
 export const Nav = styled.nav`
-background: black;
+background: #1A1C23;
 height: 80px;
 display: flex;
 justify-content: center;

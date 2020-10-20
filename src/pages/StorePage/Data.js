@@ -1,6 +1,6 @@
 export const homeHeader = {
-    headline1: 'Plants',
-    subtitleHeader: 'There are many variations.',
+    headline1: 'Make Your Style Unique',
+    subtitleHeader: 'From contemporary to modern styles, create your own vision.',
     plant1: 'Paradise Palm',
     plantSubtitle: 'Give your home a calming, soothing presence with the Paradise Palm. Her leaves, beautiful color, and elegance will quickly earn your heart',
     img: require('../../images/header.png'),
@@ -8,8 +8,9 @@ export const homeHeader = {
     start: '',
 }
 
+
 export const storeInfo = {
-    intro: 'These Are Our Plants',
+    intro: 'NEW ARRIVAL',
     cat1: 'VINCENT',
     intro2: 'LUXURY',
     cat2: 'Inspired by contemporary architecture, our furniture is a modern take on interior design. Our designs are a blend of comfortable, liveable elements that give your home a sophisticated look to any room.',
@@ -17,4 +18,13 @@ export const storeInfo = {
     pricedesc: 'Great Prices',
     pricepara: 'We offer some of the best prices you will find during your search for new furniture. We help you stay within your budget and offer a wide variety of options that will fall in your range.',
     img2: require('../../images/vincent.png')
+}
+
+export const optionsInfo = {
+    deskimg: require('../../images/desk.png'),
+    couchimg: require('../../images/couch.png'),
+    roomoneimg: require('../../images/roomone.png'),
+    bedimg: require('../../images/bed.png'),
+    roomtwoimg: require('../../images/roomtwo.png'),
+    diningimg: require('../../images/dining.png'),
 }
