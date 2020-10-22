@@ -74,7 +74,7 @@ display: flex;
 `;
 
 export const ColumnDesc = styled.div`
-margin-top: 100px;
+margin-top: 30px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
 /* text-align: center; */
@@ -94,25 +94,27 @@ height: 100%;
 export const FirstCol = styled.p`
 display: grid;
 margin-top: 100px;
-max-width: 80%;
+max-width: 90%;
 grid-template-rows: 1fr 1fr;
 margin-left: auto;
 margin-right: auto;
 padding: 50px 50px 50px 50px;
+background-color: #333847;
+color: white;
 border-radius: 15px;
 box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
             5px 4px 3px 0px rgba(88, 88, 88, 0.15);
 `
 
 export const DescTitle = styled.h4`
-margin-top: -35px;
+margin-top: -65px;
 font-size: 30px;
 line-height: 1.2;
 `
 
 export const Desc = styled.p`
 font-size: 20px;
-line-height: 1.1;
+line-height: 1.5;
 `
 
 export const PriceIcon = styled(ImPriceTags)`
@@ -136,11 +138,13 @@ height: 40px;
 export const SecCol = styled.p`
 display: grid;
 margin-top: 100px;
-max-width: 80%;
+max-width: 90%;
 grid-template-rows: 1fr 1fr;
 margin-left: auto;
 margin-right: auto;
 padding: 50px 50px 50px 50px;
+background-color: #333847;
+color: white;
 border-radius: 15px;
 box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
             5px 4px 3px 0px rgba(88, 88, 88, 0.15);
@@ -149,11 +153,13 @@ box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
 export const ThirdCol = styled.p`
 display: grid;
 margin-top: 100px;
-max-width: 80%;
+max-width: 90%;
 grid-template-rows: 1fr 1fr;
 margin-left: auto;
 margin-right: auto;
 padding: 50px 50px 50px 50px;
+background-color: #333847;
+color: white;
 border-radius: 15px;
 box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
             5px 4px 3px 0px rgba(88, 88, 88, 0.15);
