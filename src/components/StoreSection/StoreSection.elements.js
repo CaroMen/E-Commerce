@@ -26,27 +26,26 @@ padding-bottom: 60px;
 `;
 
 export const StoreTextWrapperDesc = styled.div`
-margin-left: 300px;
+margin-top: -80px;
+margin-left: 200px;
 width: 100%;
+height: 130%;
 `;
 
 export const IntroDesc = styled.p`
 margin-top: 10px;
 font-size: 25px;
-line-height: 1.1;
+line-height: 1.5;
 margin-bottom: 20px;
 `
 
 export const StoreNewSec = styled.div`
-/* padding-right: 15px; */
-/* margin-top: 0px; */
 max-width: 40%;
 position: relative;
 text-align: right;
 display: grid;
 grid-template-columns: 100% 100%;
 width: 100%;
-/* margin-right: 30px; */
 flex: 1;
 `
 
@@ -70,14 +69,12 @@ padding-left: 15px;
 margin-top: -450px;
 max-width: 33%;
 display: flex;
-/* justify-content: space-between */
 `;
 
 export const ColumnDesc = styled.div`
 margin-top: 30px;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-/* text-align: center; */
 height: 100%;
 width: 100%;
 margin-left: 0;
@@ -87,8 +84,6 @@ margin-right: 0;
 export const DescCol = styled.div`
 width: 100%;
 height: 100%;
-/* margin-right: 30px; */
-/* justify-content: center; */
 `;
 
 export const FirstCol = styled.p`
@@ -180,9 +175,15 @@ right: 0;
 left: 0;
 width: 100%;
 height: 100%;
-
-@media screen and (max-width: 768px) {
-    margin-top: 105px;
-    margin-bottom: -130px;
-}
 `;
+
+export const ImgBack = styled.img`
+/* background-color: #333847; */
+width: 150%;
+height: 150%;
+position: absolute;
+z-index: -1;
+margin-top: -120px;
+margin-left: -600px;
+/* padding-top: -400px; */
+`

@@ -17,7 +17,8 @@ export const storeInfo = {
     cat3: 'Our job is to help you make your vision become a reality. Give your home a sleek and fresh look with our furniture. With a comfortable yet bold and simple take on life, find the joy that is found in a beautifully decorated, contemporary and modern home.',
     pricedesc: 'Great Prices',
     pricepara: 'We offer some of the best prices you will find during your search for new furniture. We help you stay within your budget and offer a wide variety of options that will fall in your range.',
-    img2: require('../../images/vincent.png')
+    img2: require('../../images/vincent.png'),
+    img3: require('../../images/blob.svg'),
 }
 
 export const optionsInfo = {

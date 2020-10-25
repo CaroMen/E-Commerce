@@ -1,8 +1,8 @@
 import React from 'react';
 import { Container } from '../../globalstyles';
-import { StoreSec, StoreTextWrapper, FirstRowStore, HeadLine, StoreIntroSec, SubtitleCat, StoreNewSec, Img, IntroDesc, StoreTextWrapperDesc, IntroHeadLine, ColumnDesc, FirstCol, SecCol, ThirdCol, PriceIcon, DescTitle, Desc, DescCol, ModernIcon, ServiceIcon } from './StoreSection.elements';
+import { StoreSec, StoreTextWrapper, FirstRowStore, HeadLine, StoreIntroSec, SubtitleCat, StoreNewSec, Img, IntroDesc, StoreTextWrapperDesc, IntroHeadLine, ColumnDesc, FirstCol, SecCol, ThirdCol, PriceIcon, DescTitle, Desc, DescCol, ModernIcon, ServiceIcon, ImgBack } from './StoreSection.elements';
 
-const StoreSection = ({ intro, darkText, cat1, start, img2, alt, cat2, cat3, intro2, cat4, pricedesc, pricepara }) => {
+const StoreSection = ({ intro, darkText, cat1, start, img2, alt, cat2, cat3, intro2, cat4, pricedesc, pricepara, img3 }) => {
     return (
         <>
             <StoreSec>
@@ -20,6 +20,7 @@ const StoreSection = ({ intro, darkText, cat1, start, img2, alt, cat2, cat3, int
                                 <SubtitleCat darkText={darkText}>{cat1}</SubtitleCat>
                             </ImgWrapper-Store>
                             <StoreTextWrapperDesc>
+                                <ImgBack src={img3} />
                                 <IntroHeadLine darkText={darkText}>{intro2}</IntroHeadLine>
                                 <IntroDesc darkText={darkText}>{cat2}</IntroDesc>
                                 <IntroDesc darkText={darkText}>{cat3}</IntroDesc>
