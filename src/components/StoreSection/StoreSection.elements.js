@@ -99,6 +99,13 @@ color: white;
 border-radius: 15px;
 box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
             5px 4px 3px 0px rgba(88, 88, 88, 0.15);
+transition: 0.5s ease;
+cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    }
 `
 
 export const DescTitle = styled.h4`
@@ -143,6 +150,14 @@ color: white;
 border-radius: 15px;
 box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
             5px 4px 3px 0px rgba(88, 88, 88, 0.15);
+
+transition: 0.5s ease;
+cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    }
 `
 
 export const ThirdCol = styled.p`
@@ -158,6 +173,13 @@ color: white;
 border-radius: 15px;
 box-shadow: -5px -4px 3px 0px rgba(255, 255, 255, 0.15),
             5px 4px 3px 0px rgba(88, 88, 88, 0.15);
+transition: 0.5s ease;
+cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+    }
 `
 
 export const SubtitleCat = styled.p`

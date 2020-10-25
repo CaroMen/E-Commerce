@@ -8,6 +8,7 @@ const Home = () => {
             <Hero {...homeHeader} />
             <StoreSection {...storeInfo} />
             <Options {...optionsInfo} />
+
         </>
     )
 }

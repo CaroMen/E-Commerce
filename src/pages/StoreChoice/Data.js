@@ -30,8 +30,16 @@ export const optionsInfo = {
     diningimg: require('../../images/dining.png'),
 }
 
-// export const storeSect = {
-//     imgStoreOne: require('../../images/dining.png'),
-//     imgStoreTwo: require('../../images/sofa2.png'),
-//     imgStoreThree: require('../../images/diningtable.png'),
-// }
+export const storeSect = {
+    alt: 'Image',
+    imgStoreOne: require('../../images/bed2.png'),
+    imgStoreTwo: require('../../images/sofa2.png'),
+    imgStoreThree: require('../../images/diningtable.png'),
+    imgStoreFour: require('../../images/sofa.png'),
+    imgStoreFive: require('../../images/desktwo.png'),
+    h1: 'Trial',
+    h2: 'Trial',
+    h3: 'Trial',
+    h4: 'Trial',
+    h5: 'Trial',
+}

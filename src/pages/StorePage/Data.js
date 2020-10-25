@@ -29,3 +29,9 @@ export const optionsInfo = {
     roomtwoimg: require('../../images/roomtwo.png'),
     diningimg: require('../../images/dining.png'),
 }
+
+// export const storeSect = {
+//     imgStoreOne: require('../../images/bed2.png'),
+//     imgStoreTwo: require('../../images/sofa2.png'),
+//     imgStoreThree: require('../../images/diningtable.png'),
+// }
