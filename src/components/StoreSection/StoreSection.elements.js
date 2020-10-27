@@ -6,7 +6,7 @@ import { BsFillChatFill } from "react-icons/bs";
 export const StoreSec = styled.div`
 color: black;
 padding: 160px 0;
-background-color: #DFD5CE;
+background-color: white;
 `;
 
 export const FirstRowStore = styled.div`

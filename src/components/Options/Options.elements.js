@@ -5,7 +5,7 @@ margin: 0;
 padding: 0;
 /* color: black; */
 padding-bottom: 10%;
-background-color: #DFD5CE ;
+background-color: white ;
 `
 
 export const Pictures = styled.div`

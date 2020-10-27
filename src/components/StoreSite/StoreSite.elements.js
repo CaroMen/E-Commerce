@@ -8,6 +8,7 @@ margin-top: 100px;
 margin-bottom: 100px;
 padding-left: 150px;
 padding-right: 150px;
+/* background-color: #D0CCD0; */
 `
 
 export const StoreGrids = styled.div`
