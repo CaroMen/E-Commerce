@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "atomize": "^1.0.26",
     "cookie": "^0.4.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
@@ -18,10 +19,13 @@
     "react-icons": "^3.11.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-transition-group": "^4.4.1",
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "shopify-buy": "^2.11.0",
-    "styled-components": "^5.2.0"
+    "styled-components": "^5.2.0",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
   },
   "scripts": {
     "start": "react-scripts start",
