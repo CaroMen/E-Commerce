@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { AiOutlineStar } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 export const StoreContainer = styled.div`
 display: grid;
@@ -87,4 +88,12 @@ export const Rating = styled(AiOutlineStar)`
 margin-right: 0.5rem;
 margin-top: -120px;
 font-size: 20px;
+`
+export const BtnLink = styled(Link)`
+/* display: flex; */
+/* align-items: center; */
+text-decoration: none;
+/* padding: 0.5rem 1rem; */
+/* height: 100%; */
+/* width: 100%; */
 `

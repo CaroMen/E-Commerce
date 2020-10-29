@@ -30,7 +30,7 @@ const Navbar = () => {
                             </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="/cart">
+                                <NavLinks to="">
                                     Cart
                             </NavLinks>
                             </NavItem>
