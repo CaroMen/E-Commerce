@@ -17,7 +17,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <ItemHeadline>{h1}</ItemHeadline>
                     <Price>{price1}</Price>
                     <BtnLink to='/juliette'>
-                        <Button fontBig>Go to product</Button>
+                        <Button fontBig>View Product</Button>
                     </BtnLink>
                 </StoreGrids>
                 <StoreGrids>
@@ -27,7 +27,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <Title>{t2}</Title>
                     <ItemHeadline>{h2}</ItemHeadline>
                     <Price>{price2}</Price>
-                    <Button fontBig >Go to product</Button>
+                    <Button fontBig >View Product</Button>
                 </StoreGrids>
                 <StoreGrids>
                     <Image>
@@ -36,7 +36,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <Title>{t3}</Title>
                     <ItemHeadline>{h3}</ItemHeadline>
                     <Price>{price3}</Price>
-                    <Button fontBig >Go to product</Button>
+                    <Button fontBig >View Product</Button>
                 </StoreGrids>
                 <StoreGrids>
                     <Image>
@@ -45,7 +45,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <Title>{t4}</Title>
                     <ItemHeadline>{h4}</ItemHeadline>
                     <Price>{price4}</Price>
-                    <Button fontBig >Go to product</Button>
+                    <Button fontBig >View Product</Button>
                 </StoreGrids>
                 <StoreGrids>
                     <Image>
@@ -54,7 +54,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <Title>{t5}</Title>
                     <ItemHeadline>{h5}</ItemHeadline>
                     <Price>{price5}</Price>
-                    <Button fontBig >Go to product</Button>
+                    <Button fontBig >View Product</Button>
                 </StoreGrids>
                 <StoreGrids>
                     <Image>
@@ -63,7 +63,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <Title>{t6}</Title>
                     <ItemHeadline>{h6}</ItemHeadline>
                     <Price>{price6}</Price>
-                    <Button fontBig >Go to product</Button>
+                    <Button fontBig >View Product</Button>
                 </StoreGrids>
                 <StoreGrids>
                     <Image>
@@ -72,7 +72,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <Title>{t7}</Title>
                     <ItemHeadline>{h7}</ItemHeadline>
                     <Price>{price7}</Price>
-                    <Button fontBig >Go to product</Button>
+                    <Button fontBig >View Product</Button>
                 </StoreGrids>
                 <StoreGrids>
                     <Image>
@@ -81,7 +81,7 @@ const StoreSite = ({ imgStoreOne, imgStoreTwo, imgStoreThree, imgStoreFour, imgS
                     <Title>{t8}</Title>
                     <ItemHeadline>{h8}</ItemHeadline>
                     <Price>{price8}</Price>
-                    <Button fontBig >Go to product</Button>
+                    <Button fontBig >View Product</Button>
                 </StoreGrids>
             </StoreContainer>
         </>
